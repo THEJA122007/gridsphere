@@ -1,12 +1,10 @@
 'use client'
 
-export const dynamic = 'force-dynamic'
-
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import confetti from 'canvas-confetti'
 
-export default function DonatePage() {
+function DonateContent() {
   const [showSuccess, setShowSuccess] = useState(false)
 
   const searchParams = useSearchParams()
@@ -86,5 +84,13 @@ export default function DonatePage() {
 
       </div>
     </main>
+  )
+}
+
+export default function DonatePage() {
+  return (
+    <Suspense fallback={<div className="text-white">Loading...</div>}>
+      <DonateContent />
+    </Suspense>
   )
 }
