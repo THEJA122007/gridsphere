@@ -1,36 +1,230 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 GridSphere
 
-## Getting Started
+GridSphere is a modern nonprofit donation platform designed to connect donors with impactful community programs. It provides a seamless donation experience while promoting transparency, accessibility, and social impact through an elegant and responsive web interface.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+🔗 https://gridsphere-9zjv.vercel.app
+
+---
+
+## 📌 Project Overview
+
+GridSphere enables users to explore various nonprofit initiatives, learn about their impact, and make donations quickly. The platform focuses on creating a clean, user-friendly experience with modern animations and responsive design.
+
+---
+
+## ✨ Features
+
+- 🏠 Responsive Home Page
+- 💧 Featured Programs
+  - Clean Water Initiative
+  - Food Relief Program
+  - Healthcare Support
+  - Education for Everyone
+  - Community Development
+- 📄 Dynamic Program Detail Pages
+- 💰 Donation Page with Pre-filled Donation Amounts
+- 🎉 Confetti Celebration after Successful Donation
+- 📊 Impact Statistics
+- ⭐ Reviews & Feedback Section
+- 📝 Add Your Review Form
+- 📤 Share Program Feature
+- 🎨 Modern Black & White Minimal UI
+- 📱 Fully Responsive Design
+- ⚡ Smooth Animations using Framer Motion
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js | React Framework |
+| React.js | Frontend Library |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| Canvas Confetti | Donation Celebration |
+| Git & GitHub | Version Control |
+| Vercel | Deployment |
+
+---
+
+## 📂 Project Structure
+
+```
+gridsphere/
+│
+├── app/
+│   ├── about/
+│   ├── donate/
+│   ├── programs/
+│   │   └── [slug]/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── navbar.tsx
+│   ├── footer.tsx
+│   └── program-card.tsx
+│
+├── data/
+│   └── programs.ts
+│
+├── public/
+│   ├── images/
+│   └── logo.png
+│
+└── README.md
+```
+
+---
+
+## 📸 Website Pages
+
+### 🏠 Home
+- Hero Section
+- Featured Programs
+- Impact Statistics
+- Call-to-Action Buttons
+
+### 📚 Programs
+- List of all NGO Programs
+- Interactive Program Cards
+
+### 📄 Program Details
+- Complete Description
+- Donation Options
+- Share Program
+- Program Statistics
+
+### ❤️ Donate
+- Name
+- Email
+- Donation Amount
+- Animated Success Popup
+- Confetti Celebration
+
+### 🌍 Impact
+- Organization Overview
+- Statistics
+- Reviews
+- Feedback Form
+
+---
+
+## 💻 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/THEJA122007/gridsphere.git
+```
+
+Go to the project folder
+
+```bash
+cd gridsphere
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌟 Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
+- User Authentication
+- Razorpay Payment Gateway
+- Admin Dashboard
+- Donation History
+- Volunteer Registration
+- Email Notifications
+- Dark/Light Theme Toggle
+- AI Chat Support
+- Real Database Integration
+- Analytics Dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Objectives
 
-## Deploy on Vercel
+- Promote charitable giving.
+- Increase transparency in nonprofit initiatives.
+- Provide a smooth online donation experience.
+- Encourage community participation.
+- Build a scalable nonprofit platform.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📈 Impact
+
+- 🌎 42+ Countries Reached
+- 💰 ₹3.4Cr+ Donations Raised
+- ❤️ 120K+ Lives Impacted
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 👩‍💻 Developer
+
+**Thejasvini K**
+
+GitHub:
+https://github.com/THEJA122007
+
+---
+
+## 📄 License
+
+This project is created for educational and hackathon purposes.
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub!
